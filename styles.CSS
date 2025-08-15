@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header section */
+.header {
+    background-color: #4cafef;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Main content styling */
+.content {
+    padding: 20px;
+}
+
+/* Card sections with Box Model */
+.card {
+    background-color: white;
+    border: 2px solid #ddd;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4cafef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
+
+/* Footer section */
+.footer {
+    background-color: #4cafef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
